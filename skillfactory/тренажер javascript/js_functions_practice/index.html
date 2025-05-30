@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Демонстрация функции print</title>
+</head>
+<body>
+    <h1>Демонстрация функции print</h1>
+    <p>Откройте консоль разработчика (F12), чтобы увидеть вывод функции.</p>
+
+    <script src="main.js"></script>
+    <script>
+        // Вызовы функции для демонстрации
+        console.log("--- Демонстрация для Map ---");
+        const myMap = new Map([
+            ['city', 'New York'],
+            ['population', 8000000],
+            [true, 'boolean_value']
+        ]);
+        print(myMap);
+
+        console.log("\n--- Демонстрация для Set ---");
+        const mySet = new Set(['apple', 42, false]);
+        print(mySet);
+
+        console.log("\n--- Демонстрация для некорректного ввода ---");
+        print([]); // Массив
+        print("hello"); // Строка
+        print(null); // Null
+    </script>
+</body>
+</html>
