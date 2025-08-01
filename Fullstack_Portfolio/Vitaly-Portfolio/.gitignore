@@ -1,0 +1,22 @@
+# Игнорировать системные/временные файлы
+AppData/
+Local/
+Temp/
+
+# Игнорировать node_modules
+node_modules/
+
+# Игнорировать файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Игнорировать логи и кэши
+*.log
+*.tmp
+*.temp
+
+# Дополнительно для Windows
+Thumbs.db
+.DS_Store
